@@ -1,0 +1,95 @@
+.nav-logo {
+    width: 50px; /* Adjust the size of the logo as needed */
+    height: 100;
+    margin-right: center; /* Add auto margin to center the logo horizontally */
+    margin-left: center;
+    align-self: center; /* Align the logo vertically in the center */
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+/* Display the links in a column */
+     /* Align the links horizontally in the center */
+    background-color: blue; /* Set the background color to blue */
+    padding: 10px;
+  }
+  
+  .nav-links li {
+    margin-top: 10px; /* Add margin to separate the links vertically */
+  }
+  
+  .nav-links li a {
+    color: #fff; /* Set the text color to white */
+    text-decoration: none;
+    padding: 5px;
+    transition: color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    color: #ff9900;
+  }
+  /* homepage.css */
+
+/* ... existing styles ... */
+
+/* Search Bar Styles */
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 5px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    margin-top:-12px;
+  }
+  
+  .search-button {
+    display: inline-block;
+    padding: 5px 5px;
+    background-color: #0a192f;
+    color: #fff;
+    border: none;
+    border-radius: 0 2px 2px 0;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin-top: -14px;
+  }
+  
+  .search-button:hover {
+    background-color: #b6a386;
+  }
+  /* ... existing styles ... */
+
+.nav-links {
+    /* ... existing styles ... */
+    flex-wrap: wrap; /* Allow the navigation links to wrap to a new line */
+  }
+  
+  .nav-links li {
+    /* ... existing styles ... */
+    margin-top: 5px; /* Remove margin-top to align links and search bar */
+  }
+  
+  .search-bar {
+    /* ... existing styles ... */
+    margin-left: 10px; /* Push the search bar to the right */
+  }
+  
+  .search-bar input[type="text"] {
+    /* ... existing styles ... */
+    border-radius: 0 2px 2px 0; /* Adjust border-radius to match the search button */
+  }
+  
+  .search-button {
+    /* ... existing styles ... */
+    border-radius: 2px 0 0 2px; /* Adjust border-radius to match the search input */
+  }
+  

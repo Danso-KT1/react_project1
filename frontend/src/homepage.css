@@ -1,0 +1,98 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 10px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* Header Styles */
+header {
+  text-align: center;
+  margin-bottom:0px;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 18px;
+  color: #777;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #f2f2f2;
+  padding: 5px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 5;
+  padding: 5;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 100px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #292b4b;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ff9900;
+}
+
+/* Main Content Styles */
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+
+section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+.logo {
+  max-width: 95px; /* Adjust the size of the image as needed */
+  height: auto;
+  display: block;
+  margin: 0 auto 0; /* Center the image and add margin bottom */
+}
